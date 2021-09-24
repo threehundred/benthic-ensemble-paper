@@ -1,0 +1,7 @@
+tensorflow_gpu
+pyvips
+pillow
+pandas
+matplotlib
+keras_applications
+scipy
