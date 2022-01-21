@@ -367,7 +367,7 @@ def cut_patch(image, patch_width, patch_height, x, y):
     new_image = image.crop(dimensions)
     return new_image
 
-import pyvips
+#import pyvips
 def load_image_and_crop(image_path, point_x, point_y, crop_width, crop_height):
     #start = time.time()
 

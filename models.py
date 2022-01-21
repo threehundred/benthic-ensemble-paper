@@ -2,7 +2,7 @@ import tensorflow
 from tensorflow.keras import Sequential
 from tensorflow.keras.applications import ResNet50, InceptionResNetV2, VGG16, NASNetLarge, DenseNet201, DenseNet169, MobileNetV2
 
-from keras_applications import densenet as dnet
+from tensorflow.keras.applications import densenet as dnet
 
 from tensorflow.keras.layers import Flatten, Dense, GlobalAveragePooling2D, Dropout, GlobalAveragePooling1D, GlobalMaxPooling2D, GlobalMaxPooling1D
 
@@ -221,6 +221,7 @@ def conv_block(x, growth_rate, name):
     #                        name=name + 'reducer')(x1)
 
     x1 = Dropout(0.2)(x1, training=True)
+    #x1 = Dropout(0.2)(x1, training=False)
 
     print("---------------------------------> patched")
 
