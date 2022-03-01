@@ -1,5 +1,7 @@
 # benthic-ensemble-paper
 
+[![DOI](https://zenodo.org/badge/362996014.svg)](https://zenodo.org/badge/latestdoi/362996014)
+
 This repository provides the code for the paper "Using ensemble methods to improve the robustness of deep learning for image classification in marine environments".
 
 Documentation for using this repo as follows:
